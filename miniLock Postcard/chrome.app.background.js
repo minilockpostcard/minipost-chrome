@@ -2,8 +2,6 @@
 (function() {
   var miniPostAppWindow, start;
 
-  console.info("Background go!");
-
   miniPostAppWindow = void 0;
 
   start = function(window) {

@@ -1,5 +1,3 @@
-console.info "Background go!"
-
 miniPostAppWindow = undefined
 
 start = (window) ->
