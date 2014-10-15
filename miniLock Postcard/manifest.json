@@ -5,13 +5,16 @@
   "manifest_version": 2,
   "name": "miniLock Postcard",
   "description": "Playful encryption for people who own a personal computer.",
-  "version": "0",
+  "version": "0.1",
   "author": "undefined",
   "minimum_chrome_version": "36",
   "offline_enabled": true,
   "icons": {
-    "128": "Chome App Icon 128px.png",
-    "256": "Chome App Icon 256px.png"
+    "32": "Icon.png",
+    "64": "Icon-64px.png",
+    "128": "Icon-128px.png",
+    "256": "Icon-256px.png",
+    "512": "Icon-512px.png"
   },
   "commands": {
     "Unlock": {
