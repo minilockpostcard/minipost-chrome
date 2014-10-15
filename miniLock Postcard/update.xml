@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gupdate xmlns="http://www.google.com/update2/response" protocol="2.0">
+  <app appid="MY APP ID">
+    <updatecheck codebase="https://raw.githubusercontent.com/minipostlink/minipost-chrome/master/miniLock%20Postcard.crx" version="0.0" />
+  </app>
+</gupdate>

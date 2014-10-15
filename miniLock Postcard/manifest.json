@@ -1,0 +1,46 @@
+{
+  "app": {
+    "background": {"scripts": ["chrome.app.background.js"]}
+  },
+  "manifest_version": 2,
+  "name": "miniLock Postcard",
+  "description": "Playful encryption for people who own a personal computer.",
+  "version": "0",
+  "author": "undefined",
+  "minimum_chrome_version": "36",
+  "offline_enabled": true,
+  "icons": {
+    "128": "Chome App Icon 128px.png",
+    "256": "Chome App Icon 256px.png"
+  },
+  "commands": {
+    "Unlock": {
+      "suggested_key": {"default": "Ctrl+U", "mac": "Command+U"},
+      "description": "Unlock Postcard"
+		},
+    "Open": {
+      "suggested_key": {"default": "Ctrl+O", "mac": "Command+O"},
+      "description": "Open Postcard File"
+		},
+    "Write": {
+      "suggested_key": {"default": "Ctrl+P", "mac": "Command+P"},
+      "description": "New Postcard"
+    },
+    "Index": {
+      "suggested_key": {"default": "Ctrl+I", "mac": "Command+I"},
+      "description": "Index Description"
+    }
+  },
+  "permissions": [
+    "app.window",
+    "notifications",
+    "fileSystem"
+  ],
+  "file_handlers": {
+    "any": {
+      "extensions": [
+        "minilock"
+      ]
+    }
+  }
+}
