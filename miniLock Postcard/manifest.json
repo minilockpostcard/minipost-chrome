@@ -5,7 +5,7 @@
   "manifest_version": 2,
   "name": "miniLock Postcard",
   "description": "Playful encryption for people who own a personal computer.",
-  "version": "0.5",
+  "version": "0.6",
   "update_url": "https://raw.githubusercontent.com/minipostlink/minipost-chrome/master/updates.xml",
   "author": "undefined",
   "minimum_chrome_version": "36",
